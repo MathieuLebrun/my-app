@@ -10,5 +10,5 @@ docker run -d -p 3000:3000 -v /app/node_modules -v %cd%:/app --name dockerized-r
 
 
 
-
+docker run -d -p 3000:3000 -v /app/node_modules -v "C:\Users\nspeq\Documents\MDS 2023-2024\docker\my-app":/app --name react-app react-app-image:1
 
